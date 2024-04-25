@@ -1,52 +1,90 @@
-# Prerequisites
-*.d
+# Archivos y carpetas del sistema
+.DS_Store
+Thumbs.db
 
-# Object files
-*.o
-*.ko
-*.obj
-*.elf
+# Directorios de compilación y dependencias
+node_modules/
+bower_components/
+dist/
+tmp/
+out/
+build/
+*.log
+*.tmp
+*.tlog
+*.bak
+*.cache
+*.idea/
+*.vscode/
+*.history/
+*.DS_Store
+nbproject/
+*.sublime-workspace
 
-# Linker output
-*.ilk
-*.map
-*.exp
+# Archivos de paquetes
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
 
-# Precompiled Headers
-*.gch
-*.pch
-
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
-
-# Shared objects (inc. Windows DLLs)
+# Archivos ejecutables
+*.exe
 *.dll
 *.so
-*.so.*
 *.dylib
+*.class
+*.o
+*.a
 
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
+# Archivos de compilación intermedia
+*.obj
+*.pyc
+*.pyo
+*.pyd
+*.swp
+*.swo
+*.swn
+*.swm
+*.swl
 
-# Debug files
-*.dSYM/
-*.su
-*.idb
-*.pdb
+# Archivos de configuración local de la IDE
+.vscode/
+.idea/
+*.iml
+*.ipr
+*.iws
+*.vs/
+*.vscode/
+*.sublime-project
+*.sublime-workspace
+*.sublime_metrics
+*.sublime_session
 
-# Kernel Module Compile Results
-*.mod*
-*.cmd
-.tmp_versions/
-modules.order
-Module.symvers
-Mkfile.old
-dkms.conf
+# Carpetas específicas de algunos lenguajes y herramientas
+bin/
+obj/
+*.log
+debug/
+Release/
+__pycache__/
+*.py[cod]
+*$py.class
+.env
+.env.local
+
+# Otros archivos y carpetas a ignorar
+.sass-cache
+.jekyll-metadata
+_site/
+.DS_Store
+*.swp
+*.lock
+*.seed
+*.pid
+*.pid.lock
+*.seed.lock
+npm-debug.log
+yarn-error.log
