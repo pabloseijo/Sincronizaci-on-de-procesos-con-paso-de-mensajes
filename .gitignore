@@ -88,3 +88,8 @@ _site/
 *.seed.lock
 npm-debug.log
 yarn-error.log
+
+dockerfile
+src/*.exe
+*.txt
+*.bin
